@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: cd test && ./test.sh
+      run: cd test && chmod +x test.sh && ./test.sh
